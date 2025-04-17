@@ -58,7 +58,7 @@ dependencies {
 
     implementation ("com.github.TutorialsAndroid:GButton:v1.0.19")
     implementation ("com.google.android.gms:play-services-auth:20.4.0")
-
+    implementation("de.hdodenhof:circleimageview:3.1.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
