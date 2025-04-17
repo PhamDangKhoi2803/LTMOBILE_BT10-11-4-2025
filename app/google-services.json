@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "781621459014",
+    "firebase_url": "https://videoshort-8ee54-default-rtdb.firebaseio.com",
+    "project_id": "videoshort-8ee54",
+    "storage_bucket": "videoshort-8ee54.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781621459014:android:6568de43a92afa61073247",
+        "android_client_info": {
+          "package_name": "vn.iotstar.bt10_ltmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPHxY8dzkwG1E3K3VmcotRk3XzhvF3QkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781621459014:android:ac0ca2789d725603073247",
+        "android_client_info": {
+          "package_name": "vn.iotstar.videoshortwithfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPHxY8dzkwG1E3K3VmcotRk3XzhvF3QkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

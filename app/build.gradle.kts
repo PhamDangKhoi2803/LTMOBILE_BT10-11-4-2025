@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -47,11 +48,16 @@ dependencies {
     implementation ("com.firebaseui:firebase-ui-database:8.0.1")
 
     implementation("com.github.bumptech.glide:glide:4.14.2")
+    implementation(libs.credentials)
+    implementation(libs.credentials.play.services.auth)
+    implementation(libs.googleid)
     annotationProcessor("com.github.bumptech.glide:compiler:4.14.2")
 
     // cloudinary
     implementation("com.cloudinary:cloudinary-android:3.0.2")
 
+    implementation ("com.github.TutorialsAndroid:GButton:v1.0.19")
+    implementation ("com.google.android.gms:play-services-auth:20.4.0")
 
     implementation(libs.appcompat)
     implementation(libs.material)
